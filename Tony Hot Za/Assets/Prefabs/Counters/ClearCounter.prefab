@@ -66,11 +66,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8012312634755155206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e11ba97fced512548be5a75046fd2b56, type: 3}
+  m_Script: {fileID: 11500000, guid: c76ead7a981ad65498b071fb7589a782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: d299cf124eae2c64292fe280880eb61a, type: 2}
+  kitchenObjectSO: {fileID: 0}
   counterTopPoint: {fileID: 1235065295443695749}
+  secondClearCounter: {fileID: 0}
+  testing: 0
 --- !u!1 &8867820906994855150
 GameObject:
   m_ObjectHideFlags: 0

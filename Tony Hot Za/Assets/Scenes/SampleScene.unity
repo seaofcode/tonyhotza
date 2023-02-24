@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e11ba97fced512548be5a75046fd2b56, type: 3}
+  m_Script: {fileID: 11500000, guid: c76ead7a981ad65498b071fb7589a782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2046282210 stripped
@@ -1112,6 +1112,12 @@ PrefabInstance:
       propertyPath: testing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8542929015919537700, guid: 8c3b54dfa532ce5438208412a1cfe315,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: d299cf124eae2c64292fe280880eb61a,
+        type: 2}
     - target: {fileID: 8542929015919537700, guid: 8c3b54dfa532ce5438208412a1cfe315,
         type: 3}
       propertyPath: secondClearCounter

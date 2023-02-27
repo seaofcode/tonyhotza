@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ContainerCounter : MonoBehaviour, IKitchenObjectParent
+public class ContainerCounter : BaseCounter, IKitchenObjectParent
 {
 
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
@@ -10,7 +10,7 @@ public class ContainerCounter : MonoBehaviour, IKitchenObjectParent
 
     private KitchenObject kitchenObject;
 
-    public void Interact(Player player)
+    public override void Interact(Player player)
     {
         if (kitchenObject == null)
         {
